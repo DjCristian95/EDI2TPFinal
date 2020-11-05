@@ -1,0 +1,7 @@
+#Thu Nov 05 20:05:25 ART 2020
+base.0=C\:\\Instituto 2do\\EDI2\\TP Final\\TPFinalQT\\EDI2TPFinal\\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\\android-build\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Instituto 2do\\EDI2\\TP Final\\TPFinalQT\\EDI2TPFinal\\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\\android-build\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

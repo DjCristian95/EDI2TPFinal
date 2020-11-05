@@ -36,6 +36,8 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::showTime() {
     QString timeText = actualizaHora().toString("hh : mm : ss");
+    ui->DigitalClock->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Maximum);
+    ui->DigitalClock->setWordWrap(true);
     ui->DigitalClock->setText(timeText);
 }
 

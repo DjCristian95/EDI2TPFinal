@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.HoraMundial"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:5-67
+15-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:5-81
+16-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:22-78
+17
+18    <!--
+19         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+20         Remove the comment if you do not require these default features.
+21    -->
+22
+23    <supports-screens
+23-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:5-135
+24        android:anyDensity="true"
+24-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:80-105
+25        android:largeScreens="true"
+25-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:23-50
+26        android:normalScreens="true"
+26-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:51-79
+27        android:smallScreens="true" />
+27-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:106-133
+28
+29    <application
+29-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:5-88:19
+30        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+30-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:53-116
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+32-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:145-177
+33        android:hardwareAccelerated="true"
+33-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:18-52
+34        android:label="HoraMundial" >
+34-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:14:117-144
+35        <activity
+35-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:9-84:16
+36            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+36-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:19-79
+37            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+37-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:15:19-188
+38            android:label="HoraMundial"
+38-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:19-46
+39            android:launchMode="singleTop"
+39-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:19:19-49
+40            android:screenOrientation="unspecified" >
+40-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:19-58
+41            <intent-filter>
+41-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:20:13-23:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:17-68
+42-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:17-76
+44-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:27-74
+45            </intent-filter>
+46
+47            <!-- Application arguments -->
+48            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+49            <!-- Application arguments -->
+50
+51            <meta-data
+51-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:13-89
+52                android:name="android.app.lib_name"
+52-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:24-59
+53                android:value="HoraMundial" />
+53-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:60-87
+54            <meta-data
+54-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:13-112
+55                android:name="android.app.qt_sources_resource_id"
+55-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:24-73
+56                android:resource="@array/qt_sources" />
+56-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:74-110
+57            <meta-data
+57-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:13-87
+58                android:name="android.app.repository"
+58-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:24-61
+59                android:value="default" />
+59-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:62-85
+60            <meta-data
+60-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:13-106
+61                android:name="android.app.qt_libs_resource_id"
+61-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:24-70
+62                android:resource="@array/qt_libs" />
+62-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:71-104
+63            <meta-data
+63-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:13-116
+64                android:name="android.app.bundled_libs_resource_id"
+64-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:24-75
+65                android:resource="@array/bundled_libs" />
+65-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:76-114
+66            <!-- Deploy Qt libs as part of package -->
+67            <meta-data
+67-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:13-91
+68                android:name="android.app.bundle_local_qt_libs"
+68-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:24-71
+69                android:value="1" />
+69-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:72-89
+70
+71            <!-- Run with local libs -->
+72            <meta-data
+72-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:13-88
+73                android:name="android.app.use_local_qt_libs"
+73-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:24-68
+74                android:value="1" />
+74-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:69-86
+75            <meta-data
+75-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:13-100
+76                android:name="android.app.libs_prefix"
+76-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:24-62
+77                android:value="/data/local/tmp/qt/" />
+77-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:63-98
+78            <meta-data
+78-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:13-122
+79                android:name="android.app.load_local_libs_resource_id"
+79-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:24-78
+80                android:resource="@array/load_local_libs" />
+80-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:79-120
+81            <meta-data
+81-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:13-102
+82                android:name="android.app.load_local_jars"
+82-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:24-66
+83                android:value="jar/QtAndroid.jar" />
+83-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:67-100
+84            <meta-data
+84-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:13-89
+85                android:name="android.app.static_init_classes"
+85-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:24-70
+86                android:value="" />
+86-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:71-87
+87            <!-- Used to specify custom system library path to run with local system libs -->
+88            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+89            <!-- Messages maps -->
+90            <meta-data
+90-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:13-122
+91                android:name="android.app.ministro_not_found_msg"
+91-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:71-120
+92                android:value="@string/ministro_not_found_msg" />
+92-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:24-70
+93            <meta-data
+93-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:13-116
+94                android:name="android.app.ministro_needed_msg"
+94-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:68-114
+95                android:value="@string/ministro_needed_msg" />
+95-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:24-67
+96            <meta-data
+96-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:13-108
+97                android:name="android.app.fatal_error_msg"
+97-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:64-106
+98                android:value="@string/fatal_error_msg" />
+98-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:24-63
+99            <meta-data
+99-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:49:13-132
+100                android:name="android.app.unsupported_android_version"
+100-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:49:76-130
+101                android:value="@string/unsupported_android_version" />
+101-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:49:24-75
+102            <!-- Messages maps -->
+103
+104
+105            <!-- Splash screen -->
+106            <!--
+107                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+108                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+109                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+110                 are done populating your window with content.
+111            -->
+112            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+113            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+114            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+115            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+116            <!-- Splash screen -->
+117
+118
+119            <!-- Background running -->
+120            <!--
+121                 Warning: changing this value to true may cause unexpected crashes if the
+122                          application still try to draw after
+123                          "applicationStateChanged(Qt::ApplicationSuspended)"
+124                          signal is sent!
+125            -->
+126            <meta-data
+126-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:68:13-93
+127                android:name="android.app.background_running"
+127-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:68:24-69
+128                android:value="false" />
+128-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:68:70-91
+129            <!-- Background running -->
+130
+131
+132            <!-- auto screen scale factor -->
+133            <meta-data
+133-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:13-99
+134                android:name="android.app.auto_screen_scale_factor"
+134-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:24-75
+135                android:value="false" />
+135-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:76-97
+136            <!-- auto screen scale factor -->
+137
+138
+139            <!-- extract android style -->
+140            <!--
+141                 available android:values :
+142                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+143                * full - useful QWidget & Quick Controls 1 apps
+144                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+145                * none - useful for apps that don't use any of the above Qt modules
+146            -->
+147            <meta-data
+147-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:82:13-98
+148                android:name="android.app.extract_android_style"
+148-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:82:24-72
+149                android:value="default" />
+149-->C:\Instituto 2do\EDI2\TP Final\TPFinalQT\EDI2TPFinal\build-HoraMundial-Android_Qt_5_15_0_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:82:73-96
+150            <!-- extract android style -->
+151        </activity>
+152
+153        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+154
+155    </application>
+156
+157</manifest>
