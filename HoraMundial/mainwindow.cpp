@@ -107,10 +107,14 @@ void MainWindow::borrarPaises() {
 }
 
 void MainWindow::insertarPaises() {
-    QString consulta;
-    consulta.append("INSERT INTO paises (nombre, utc) VALUES ('Argentina', '1000'), ('Estados Unidos', '2000'), ('España', '6000');");
     QSqlQuery insertar;
-    insertar.prepare(consulta);
+    insertar.prepare("INSERT INTO paises (nombre, utc) VALUES (:nombre, :utc)");
+    insertar.bindValue(":nombre", "Argentina");
+    insertar.bindValue(":utc", "1000");
+    insertar.bindValue(":nombre", "Estados Unidos");
+    insertar.bindValue(":utc", "2000");
+    insertar.bindValue(":nombre", "España");
+    insertar.bindValue(":utc", "6000");
     if (insertar.exec()){
         qDebug()<<"Pais se inserto en tabla";
     }else{
