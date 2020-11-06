@@ -66,11 +66,11 @@ QTime MainWindow::actualizaHora() {
     QString valuePais = ui->cmbPaises->currentText();
     QTime time;
     if (valuePais == "Argentina"){
-        time = QTime::currentTime();
+        time = QTime::currentTime().addSecs(-10800);
    } else if (valuePais == "España"){
-        time = QTime::currentTime().addSecs(10000);
+        time = QTime::currentTime().addSecs(3580);
     } else if (valuePais == "Estados Unidos"){
-         time = QTime::currentTime().addSecs(4000);
+         time = QTime::currentTime().addSecs(-18000);
     }
    return time;
 }
