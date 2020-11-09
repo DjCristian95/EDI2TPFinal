@@ -6,16 +6,21 @@
 class DataBaseConnection {
 public:
     DataBaseConnection(const QString &databaseName,
-                       const QString &port,
+                       const int &port,
                        const QString &user,
                        const QString &password);
 
 private:
     QSqlDatabase mDatabase;
     QString mDatabaseName;
-    QString mPort;
+    int mPort;
     QString mUser;
     QString mPassword;
+
+    void insertarPaises();
+    void crearTablaPaises(QSqlDatabase mDatabase);
+    QString getUTCbyPais(QString pais);
+    void borrarPaises();
 
 };
 

@@ -20,9 +20,6 @@ public:
     ~MainWindow();
     void buildComboBoxPaises();
     QTime actualizaHora();
-    void crearTablaPaises();
-    void insertarPaises();
-    void borrarPaises();
 
 private slots:
     void showTime();
@@ -30,7 +27,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    DataBaseConnection mDbConnection;
+
     QSqlQueryModel *mModel;
     QSqlDatabase db;
 };

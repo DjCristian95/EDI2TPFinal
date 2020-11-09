@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "databaseconnection.h"
 #include <QTimer>
 #include <QDateTime>
 #include <QStringList>
@@ -8,26 +9,14 @@ using namespace std;
 #include <QSqlQuery>
 #include <QDebug>
 
+
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), ui(new Ui::MainWindow)
-    , mDbConnection("horamundial.sqlite", "3307",
-                    "root", ""){
+    : QMainWindow(parent), ui(new Ui::MainWindow) {
+
+    const DataBaseConnection dbC = DataBaseConnection("horamundial.sqlite", 3307,
+                    "root", "");
     ui->setupUi(this);
     mModel = nullptr;
-
-   db = QSqlDatabase::addDatabase("QSQLITE");//le otorga a db los drives
-   db.setDatabaseName("horamundial.sqlite");
-   db.setPort(3307);
-   db.setUserName("root");
-   db.setPassword("");
-
-    //crea o abre base dato ( retorna bool)
-    if(db.open()){
-        qDebug()<<"Base de datos conectada..";
-    }else{
-        qDebug()<<" ERROR Base de datos NO conectada..";
-    }
-    crearTablaPaises();
     QTimer *timer = new QTimer(this);
     buildComboBoxPaises();
     connect(timer, SIGNAL(timeout()), this, SLOT(showTime()));
@@ -73,51 +62,4 @@ QTime MainWindow::actualizaHora() {
          time = QTime::currentTime().addSecs(-18000);
     }
    return time;
-}
-
-void MainWindow::crearTablaPaises() {
-    QString consulta;
-    consulta.append("CREATE TABLE IF NOT EXISTS paises("
-                    "id INTEGER PRIMARY KEY AUTOINCREMENT, "
-                    "nombre VARCHAR(100),"
-                    "utc  VARCHAR(100) "
-                     ");");
-    QSqlQuery crear;
-    crear.prepare(consulta);
-   if (!db.tables().contains(QLatin1String("paises"))) {
-        if (crear.exec()){
-            insertarPaises();
-            qDebug()<<"La tabla paises existe o se creo correctamente";
-        }else{
-            qDebug()<<"ERROR "<<crear.lastError();
-        }
-    }
-}
-
-void MainWindow::borrarPaises() {
-    QString consultaEliminar;
-    consultaEliminar.append("DELETE FROM paises");
-    QSqlQuery eliminar;
-    eliminar.prepare(consultaEliminar);
-    if (eliminar.exec()){
-        qDebug()<<"Pais se ELIMNINOOOOO en tabla";
-    }else{
-        qDebug()<<"ERROR  en carga entregas"<<eliminar.lastError();
-    }
-}
-
-void MainWindow::insertarPaises() {
-    QSqlQuery insertar;
-    insertar.prepare("INSERT INTO paises (nombre, utc) VALUES (:nombre, :utc)");
-    insertar.bindValue(":nombre", "Argentina");
-    insertar.bindValue(":utc", "1000");
-    insertar.bindValue(":nombre", "Estados Unidos");
-    insertar.bindValue(":utc", "2000");
-    insertar.bindValue(":nombre", "España");
-    insertar.bindValue(":utc", "6000");
-    if (insertar.exec()){
-        qDebug()<<"Pais se inserto en tabla";
-    }else{
-        qDebug()<<"ERROR  en carga entregas"<<insertar.lastError();
-    }
 }
